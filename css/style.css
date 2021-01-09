@@ -1,1 +1,110 @@
 @charset "UTF-8";
+
+body {
+    font-size: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.menu {
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-color: #365bc2;
+    background-blend-mode: hard-light;
+    min-height: 100vh;
+}
+.menu header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1920px;
+    padding: 10px 4% 0 4%;
+}
+
+.logo {
+    display: flex;
+    /* vertical-align: middle; */
+}
+
+.logo h1 {
+    color: white;
+    text-decoration: none;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+.logo-img {
+    width: 120px;
+    border-radius: 50%;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin-top: 60px;
+}
+.menu li {
+    margin-left: 36px;
+}
+.menu li a {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+    -webkit-text-stroke: 1px #000;
+    text-decoration: none;
+}
+.menu li a:hover {
+    color: yellow;
+}
+
+.content {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 50px 4%;
+}
+.grid {
+    display: grid;
+    gap: 26px;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    /* margin: 50px 0; */
+    min-height: 100vh;
+}
+.normal { background-blend-mode: normal;}
+.multiply { background-blend-mode: multiply;}
+.screen { background-blend-mode: screen;}
+.overlay { background-blend-mode: overlay;}
+.darken { background-blend-mode: darken;}
+.lighten { background-blend-mode: lighten;}
+.color-dodge { background-blend-mode: color-dodge;}
+.color-burn { background-blend-mode: color-burn;}
+.hard-light { background-blend-mode: hard-light;}
+.soft-light { background-blend-mode: soft-light;}
+.difference { background-blend-mode: difference;}
+.exclusion { background-blend-mode: exclusion;}
+.hue { background-blend-mode: hue;}
+.saturation { background-blend-mode: saturation;}
+.color { background-blend-mode: color;}
+.luminosity { background-blend-mode: luminosity;}
+.item {
+    border-radius: 2%;
+    background: url(../images/bg.jpg);
+    background-size: cover;
+    background-color: #365bc2;
+}
+.item p {
+    font-weight: bold;
+    color: white;
+}
+.big-box {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+}
+.big-box img {
+    height: 94%;
+    width: 100%;
+    object-fit: cover;
+}
+

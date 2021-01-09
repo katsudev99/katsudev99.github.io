@@ -4,20 +4,86 @@
 <head>
     <meta charset="utf-8" />
     <link rel="icon" type="image/png" href="./images/favicon.png">
-    <title>ブラウザのタブに表示されるタイトル</title>
+    <title>katsudev99　- GitHub Pages -</title>
     <!-- CSS -->
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
     <link rel="stylesheet" href="./css/style.css">
-    <!-- JavaScript -->
+    <script src="./js/sample.js"></script>
 </head>
 
 <body>
-    <!-- メインコンテンツ -->
-    <main>
-        <p>Hello World</p>
-        <p id="p1"></p>
-    </main>
-    <script src="./js/sample.js"></script>
+    <div class="menu">
+        <header>
+            <div class="logo">
+                <a href="index.html"><img class="logo-img" src="./images/logo.gif" alt=""></a>
+                <h1>GitHub Pages</h1>
+            </div>
+            <ul>
+                <li><a href="" title="">XXX</a></li>
+                <li><a href="" title="">XXX</a></li>
+                <li><a href="" title="">XXX</a></li>
+                <li><a href="https://twitter.com/katsudev" title="Twitterアカウントを表示する" target="_blank"
+                        rel="noopener noreferrer">Twitter</a></li>
+                <li><a href="https://github.com/katsudev99" title="GitHubアカウントを表示する" target="_blank"
+                        rel="noopener noreferrer">GitHub</a></li>
+            </ul>
+        </header>
+    </div>
+    <div class="content wrapper">
+        <h2>background-blend-modeプロパティ</h2>
+        <input type="color" id="color" value="#365bc2">
+        <button onclick="ColorChange();">重ねる色を変更</button>
+        <div class="grid">
+            <div class="item normal">
+                <p>normal</p>
+            </div>
+            <div class="item multiply">
+                <p>multiply</p>
+            </div>
+            <div class="item screen">
+                <p>screen</p>
+            </div>
+            <div class="item overlay">
+                <p>overlay</p>
+            </div>
+            <div class="item darken">
+                <p>darken</p>
+            </div>
+            <div class="item lighten">
+                <p>lighten</p>
+            </div>
+            <div class="item color-dodge">
+                <p>color-dodge</p>
+            </div>
+            <div class="item color-burn">
+                <p>color-burn</p>
+            </div>
+            <div class="item hard-light">
+                <p>hard-light</p>
+            </div>
+            <div class="item soft-light">
+                <p>soft-light</p>
+            </div>
+            <div class="item difference">
+                <p>difference</p>
+            </div>
+            <div class="item exclusion">
+                <p>exclusion</p>
+            </div>
+            <div class="item hue">
+                <p>hue</p>
+            </div>
+            <div class="item saturation">
+                <p>saturation</p>
+            </div>
+            <div class="item color">
+                <p>color</p>
+            </div>
+            <div class="item luminosity">
+                <p>luminosity</p>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
